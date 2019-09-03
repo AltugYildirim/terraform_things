@@ -7,3 +7,5 @@ sudo add-apt-repository \
    stable"
 sudo apt-get -y update
 sudo apt-get -y install docker-ce docker-ce-cli containerd.io
+sudo groupadd docker
+sudo usermod -aG docker $(whoami)
