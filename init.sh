@@ -1,1 +1,1 @@
-echo "Running apt update"
+ifconfig
