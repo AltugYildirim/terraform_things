@@ -2,5 +2,4 @@ cmdkey /add:testforlcw.file.core.windows.net /user:Azure\testforlcw /pass:vEaiyU
 net use Z: \\testforlcw.file.core.windows.net\lcwv1 /persistent:Yes
 sleep 10
 whoami >> "C:\deployment\var.txt"
-whoami >> "\\testforlcw.file.core.windows.net\lcwv1\test1long.txt"
-whoami >> "Z:\test1z.txt"
+whoami >> "\\testforlcw.file.core.windows.net\lcwv1\test1long1.txt"
